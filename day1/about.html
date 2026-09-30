@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickNotes - About</title>
+</head>
+<body>
+  <header>
+    <h1>QuickNotes</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>About QuickNotes</h2>
+    <p>
+      QuickNotes is a lightweight note-taking web page created as part of the
+      Web Foundations course. It demonstrates semantic HTML structure,
+      navigation, lists, tables, and forms - all with plain HTML and no
+      frameworks.
+    </p>
+
+    <section>
+      <h3>How to use QuickNotes</h3>
+      <ol>
+        <li>Open the Home page to see your current notes.</li>
+        <li>Jot down ideas, to-dos, or reminders as list items.</li>
+        <li>Send feedback using the form at the bottom of this page.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h3>Features</h3>
+      <ul>
+        <li>Simple, distraction-free note taking</li>
+        <li>Semantic HTML5 structure with header, nav, main, and footer</li>
+        <li>Keyboard shortcuts for fast navigation</li>
+        <li>A feedback form so you can tell us what to improve</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Keyboard shortcuts</h3>
+      <table>
+        <caption>Keyboard shortcuts available in QuickNotes</caption>
+        <thead>
+          <tr>
+            <th scope="col">Shortcut</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><kbd>N</kbd></td>
+            <td>Create a new note</td>
+          </tr>
+          <tr>
+            <td><kbd>S</kbd></td>
+            <td>Save all notes</td>
+          </tr>
+          <tr>
+            <td><kbd>?</kbd></td>
+            <td>Show the shortcuts help panel</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h3>Feedback</h3>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div>
+          <button type="submit">Send feedback</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 QuickNotes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
